@@ -6,7 +6,6 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import HomeIcon from "@mui/icons-material/Home";
 import { Button, ButtonGroup } from "@mui/material";
-import ToggleOffIcon from "@mui/icons-material/ToggleOff";
 import InfoIcon from "@mui/icons-material/Info";
 import FolderIcon from "@mui/icons-material/Folder";
 import CallIcon from "@mui/icons-material/Call";
@@ -20,6 +19,11 @@ function Navbar() {
         position="static"
         colors={["#00a8c3", "#00373f"]}
         sx={{
+          justifyContent: "right",
+          alignContent: "flex-end",
+          alignItems: "flex-end",
+          alignSelf: "flex-end",
+
           backgroundColor: "rgb(79, 139, 255)", // navbar rengi
           color: "white", // navbar içi yazı rengi
           boxShadow: "none", // navbar gölgesi
@@ -34,6 +38,7 @@ function Navbar() {
             noWrap // yazıyı sığdırmak için
             component="div"
             sx={{
+              marginBlockStart: "1.05em", // Sertaç Gültekin yazısı için üste veya alta doğru kayma
               display: {
                 xs: "none", // xs ekran boyutu için
                 sm: "block", // sm ekran boyutu için
@@ -102,7 +107,6 @@ function Navbar() {
                 </Link>
               </Button>
               <Button
-              
                 color="primary"
                 variant="contained"
                 size="small"
@@ -118,13 +122,27 @@ function Navbar() {
                 </Link>
               </Button>
             </ButtonGroup>
-            <ButtonGroup style={{ cursor: "pointer" }}>
-              {" "}
-              {/* mouse hoover değişikliği */}
-              {/* context için toggle button */}
-              <ToggleOffIcon style={{ transform: "scale(2.0)" }} />{" "}
-              {/* toggle icon boyutu */}
-            </ButtonGroup>
+            
+            {/* <ButtonGroup style={{ cursor: "pointer" }}>
+              <Button
+                color="primary"
+                variant="contained"
+                size="small"
+                sx={{
+                  display: "flex",
+                  margin: 1,
+                  backgroundColor: "#25316D",
+                  justifyContent: "right",
+                  alignContent: "flex-end",
+                  alignItems: "flex-end",
+                  alignSelf: "flex-end",
+                  float: "right",
+                }}
+              >
+                <ToggleOffIcon />
+                Dark Mode
+              </Button>
+            </ButtonGroup> */}
           </Box>
         </Toolbar>
       </AppBar>
