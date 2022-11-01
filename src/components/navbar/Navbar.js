@@ -10,8 +10,22 @@ import InfoIcon from "@mui/icons-material/Info";
 import FolderIcon from "@mui/icons-material/Folder";
 import CallIcon from "@mui/icons-material/Call";
 import { Link } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Navbar() {
+  const notify = () =>
+    toast.info("🦄 Yükleniyor", {
+      position: "bottom-right",
+      autoClose: 800,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
@@ -19,11 +33,6 @@ function Navbar() {
         position="static"
         colors={["#00a8c3", "#00373f"]}
         sx={{
-          justifyContent: "right",
-          alignContent: "flex-end",
-          alignItems: "flex-end",
-          alignSelf: "flex-end",
-
           backgroundColor: "rgb(79, 139, 255)", // navbar rengi
           color: "white", // navbar içi yazı rengi
           boxShadow: "none", // navbar gölgesi
@@ -38,6 +47,8 @@ function Navbar() {
             noWrap // yazıyı sığdırmak için
             component="div"
             sx={{
+              justifyContent: "left",
+              alignContent: "flex-start",
               marginBlockStart: "1.05em", // Sertaç Gültekin yazısı için üste veya alta doğru kayma
               display: {
                 xs: "none", // xs ekran boyutu için
@@ -59,8 +70,16 @@ function Navbar() {
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            <ButtonGroup className="button-group" orientation="horizontal">
+            <ButtonGroup
+              className="button-group"
+              orientation="horizontal"
+              sx={{
+                justifyContent: "right",
+                alignContent: "flex-end",
+              }}
+            >
               <Button
+              onClick={notify}
                 color="primary"
                 variant="contained"
                 size="small"
@@ -77,6 +96,7 @@ function Navbar() {
                 </Link>
               </Button>
               <Button
+              onClick={notify}
                 color="primary"
                 variant="contained"
                 size="small"
@@ -92,6 +112,7 @@ function Navbar() {
                 </Link>
               </Button>
               <Button
+              onClick={notify}
                 color="primary"
                 variant="contained"
                 size="small"
@@ -110,6 +131,7 @@ function Navbar() {
                 color="primary"
                 variant="contained"
                 size="small"
+                onClick={notify}
                 sx={{ margin: 1, backgroundColor: "#25316D" }}
               >
                 <Link
@@ -121,28 +143,19 @@ function Navbar() {
                   Contact
                 </Link>
               </Button>
+              <ToastContainer
+                position="bottom-right"
+                autoClose={1500}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="colored"
+              />
             </ButtonGroup>
-            
-            {/* <ButtonGroup style={{ cursor: "pointer" }}>
-              <Button
-                color="primary"
-                variant="contained"
-                size="small"
-                sx={{
-                  display: "flex",
-                  margin: 1,
-                  backgroundColor: "#25316D",
-                  justifyContent: "right",
-                  alignContent: "flex-end",
-                  alignItems: "flex-end",
-                  alignSelf: "flex-end",
-                  float: "right",
-                }}
-              >
-                <ToggleOffIcon />
-                Dark Mode
-              </Button>
-            </ButtonGroup> */}
           </Box>
         </Toolbar>
       </AppBar>
