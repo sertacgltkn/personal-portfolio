@@ -15,8 +15,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 function Navbar() {
   const notify = () =>
-    toast.info("🦄 Yükleniyor", {
-      position: "bottom-right",
+    toast.info("🦄 Yükleniyor...", {
+      position: "top-right",
       autoClose: 800,
       hideProgressBar: false,
       closeOnClick: true,
@@ -46,6 +46,7 @@ function Navbar() {
             variant="h6"
             noWrap // yazıyı sığdırmak için
             component="div"
+            onClick={notify}
             sx={{
               justifyContent: "left",
               alignContent: "flex-start",
@@ -79,7 +80,7 @@ function Navbar() {
               }}
             >
               <Button
-              onClick={notify}
+                onClick={notify}
                 color="primary"
                 variant="contained"
                 size="small"
@@ -96,7 +97,7 @@ function Navbar() {
                 </Link>
               </Button>
               <Button
-              onClick={notify}
+                onClick={notify}
                 color="primary"
                 variant="contained"
                 size="small"
@@ -112,7 +113,7 @@ function Navbar() {
                 </Link>
               </Button>
               <Button
-              onClick={notify}
+                onClick={notify}
                 color="primary"
                 variant="contained"
                 size="small"
