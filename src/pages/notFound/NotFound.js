@@ -1,7 +1,6 @@
 import NextLink from "next/link";
 import { Box, Button, Container, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-
 import HomeIcon from "@mui/icons-material/Home";
 
 const Page = () => (

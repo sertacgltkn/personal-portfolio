@@ -34,24 +34,29 @@ const imageMaterial = ["https://mui.com/static/logo.png" ]
 const imageChakra = ["https://jquery-plugins.net/image/plugin/chakra-ui-simple-modular-accessible-ui-components-for-react-applications.png" ]
 const imageWordpress = ["https://orptech.com/storage/11/1638720708.png" ]
 const imageGithub = ["https://tr.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png" ]
-const imageGitlab = ["https://about.gitlab.com/nuxt-images/open-graph/open-graph-gitlab.png" ]
+const imageGitlab = ["https://www.gartner.com/imagesrv/peer-insights/vendors/logos/gitlab.png" ]
+const imageNpm = ["https://www.interviewbit.com/blog/wp-content/uploads/2022/05/Image-01-1-768x382.png" ]
+const imageAnt = ["https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png" ]
 
 function Skills() {
   return (
     <Box component="section" sx={{ display: "flex", overflow: "hidden" }}>
-      <Container sx={{ mt: 8, mb: 18, display: "flex", position: "relative" }}>
+       
+      <Container sx={{ mt: 18, mb: 18, display: "flex", position: "relative" }}>
+        
         <Box />
+        
         <Grid container spacing={5}  className="box">
           <Grid className="box-content" item xs={12} md={4} sx={{cursor: "pointer", boxSizing:"border-box", position: "static"}}>
             <Box sx={item}>
               <Box
                 component="img"
-                src={imageReact}
-                alt="react"
+                src={imageHtml}
+                alt="html"
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                REACT
+                HTML5
               </Typography>
               <Typography variant="h5">
               {"By registering, you will access specially negotiated rates "}
@@ -63,12 +68,12 @@ function Skills() {
             <Box sx={item}>
               <Box
                 component="img"
-                src={imageNextJS}
-                alt="next"
+                src={imageCss}
+                alt="css3"
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Next js
+                CSS3
               </Typography>
               <Typography variant="h5">
               {"By registering, you will access specially negotiated rates "}
@@ -97,6 +102,23 @@ function Skills() {
             <Box sx={item}>
               <Box
                 component="img"
+                src={imageReact}
+                alt="react"
+                sx={{ height: 55 }}
+              />
+              <Typography variant="h6" sx={{ my: 5 }}>
+                React
+              </Typography>
+              <Typography variant="h5">
+                {"By registering, you will access specially negotiated rates "}
+                {"that you will not find anywhere else."}
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid className="box-content" item xs={12} md={4} sx={{cursor: "pointer"}}>
+            <Box sx={item}>
+              <Box
+                component="img"
                 src={imageTypescript}
                 alt="typescript"
                 sx={{ height: 55 }}
@@ -114,12 +136,12 @@ function Skills() {
             <Box sx={item}>
               <Box
                 component="img"
-                src={imageCss}
-                alt="css"
+                src={imageNextJS}
+                alt="next js"
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-               CSS
+               NextJS
               </Typography>
               <Typography variant="h5">
                 {"By registering, you will access specially negotiated rates "}
@@ -144,23 +166,7 @@ function Skills() {
               </Typography>
             </Box>
           </Grid>
-          <Grid className="box-content" item xs={12} md={4} sx={{cursor: "pointer"}}>
-            <Box sx={item}>
-              <Box
-                component="img"
-                src={imageHtml}
-                alt="html"
-                sx={{ height: 55 }}
-              />
-              <Typography variant="h6" sx={{ my: 5 }}>
-                HTML5
-              </Typography>
-              <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
-              </Typography>
-            </Box>
-          </Grid>
+          
           <Grid className="box-content" item xs={12} md={4} sx={{cursor: "pointer"}}>
             <Box sx={item}>
               <Box
@@ -199,6 +205,23 @@ function Skills() {
             <Box sx={item}>
               <Box
                 component="img"
+                src={imageMongoDB}
+                alt="mongodb"
+                sx={{ height: 55 }}
+              />
+              <Typography variant="h6" sx={{ my: 5 }}>
+                MongoDB
+              </Typography>
+              <Typography variant="h5">
+                {"By registering, you will access specially negotiated rates "}
+                {"that you will not find anywhere else."}
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid className="box-content" item xs={12} md={4} sx={{cursor: "pointer"}}>
+            <Box sx={item}>
+              <Box
+                component="img"
                 src={imageGit}
                 alt="git"
                 sx={{ height: 55 }}
@@ -216,6 +239,25 @@ function Skills() {
             <Box sx={item}>
               <Box
                 component="img"
+                src={imageNpm}
+                alt="npm"
+                sx={{ height: 55 }}
+              />
+              <Typography variant="h6" sx={{ my: 5 }}>
+                NPM
+              </Typography>
+              <Typography variant="h5">
+                {"By registering, you will access specially negotiated rates "}
+                {"that you will not find anywhere else."}
+              </Typography>
+            </Box>
+          </Grid>
+          
+          
+          <Grid className="box-content" item xs={12} md={4} sx={{cursor: "pointer"}}>
+            <Box sx={item}>
+              <Box
+                component="img"
                 src={imageBootstrap}
                 alt="bootstrap"
                 sx={{ height: 55 }}
@@ -229,16 +271,17 @@ function Skills() {
               </Typography>
             </Box>
           </Grid>
+          
           <Grid className="box-content" item xs={12} md={4} sx={{cursor: "pointer"}}>
             <Box sx={item}>
               <Box
                 component="img"
-                src={imageMongoDB}
-                alt="mongodb"
+                src={imageMaterial}
+                alt="material"
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Mongo DB
+                Material UI
               </Typography>
               <Typography variant="h5">
                 {"By registering, you will access specially negotiated rates "}
@@ -250,12 +293,12 @@ function Skills() {
             <Box sx={item}>
               <Box
                 component="img"
-                src={imageMaterial}
-                alt="material"
+                src={imageAnt}
+                alt="ant design"
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Material UI
+                Ant Design
               </Typography>
               <Typography variant="h5">
                 {"By registering, you will access specially negotiated rates "}
@@ -280,6 +323,7 @@ function Skills() {
               </Typography>
             </Box>
           </Grid>
+          
           <Grid className="box-content" item xs={12} md={4} sx={{cursor: "pointer"}}>
             <Box sx={item}>
               <Box
