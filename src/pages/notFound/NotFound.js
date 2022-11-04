@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 
 const Page = () => (
-
-  
   <>
     <Box
       component="main"
@@ -25,7 +23,11 @@ const Page = () => (
             flexDirection: "column",
           }}
         >
-          <Typography align="center" variant="h1" sx={{ color: "#25316D", fontWeight: "bold" }}>
+          <Typography
+            align="center"
+            variant="h1"
+            sx={{ color: "#25316D", fontWeight: "bold" }}
+          >
             404: Aradığınız sayfaya ulaşılamıyor...
           </Typography>
           <Typography align="center" color="textPrimary" variant="subtitle2">
@@ -52,13 +54,12 @@ const Page = () => (
           </NextLink>
           <Box sx={{ textAlign: "center" }}>
             <img
-              alt="Under development"
               src="https://wpklik.com/wp-content/uploads/2019/03/A-404-Page-Best-Practices-and-Design-Inspiration.jpg"
+              alt="404 page"
               style={{
                 marginTop: 50,
                 display: "inline-block",
                 maxWidth: "100%",
-                width: 560,
                 height: "30vh",
                 width: "100%",
               }}

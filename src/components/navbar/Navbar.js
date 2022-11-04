@@ -85,7 +85,11 @@ function Navbar() {
                 variant="contained"
                 size="small"
                 textDecoration="none"
-                sx={{ margin: 1, backgroundColor: "#25316D" }}
+                sx={{
+                  margin: 1,
+                  backgroundColor: "#25316D",
+                  borderRadius: "30px",
+                }}
               >
                 <Link
                   exact
@@ -105,11 +109,11 @@ function Navbar() {
               >
                 <Link
                   exact
-                  to="/about"
+                  to="/skills"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <InfoIcon />
-                  About
+                  Skills
                 </Link>
               </Button>
               <Button
@@ -133,7 +137,11 @@ function Navbar() {
                 variant="contained"
                 size="small"
                 onClick={notify}
-                sx={{ margin: 1, backgroundColor: "#25316D" }}
+                sx={{
+                  margin: 1,
+                  backgroundColor: "#25316D",
+                  borderRadius: "30px",
+                }}
               >
                 <Link
                   exact

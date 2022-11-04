@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
-import About from "./pages/about/About";
+import Skills from "./pages/skills/Skills";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
 import NotFound from "./pages/notFound/NotFound";
@@ -29,7 +29,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/*" element={<NotFound />} />
