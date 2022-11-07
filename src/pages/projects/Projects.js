@@ -7,17 +7,17 @@ import { ProjectCard } from "./ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
+      title: "Personal Portfolio",
       description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Proje 2",
       description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Proje 3",
       description: "Design & Development",
       imgUrl: projImg1,
     },
@@ -50,13 +50,13 @@ const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">REACT</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">JAVASCRİPT</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">CSS</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
