@@ -6,7 +6,7 @@
     background-color: #ffffff;
     border: 1px solid #ffffff;
     box-shadow: 5px 5px 5px 5px rgb(107, 120, 235);
-    transform: scale(1);
+    transform: scale(1.2);
     transition: all 0.2s ease-in-out;
     border-radius: 50px;
     box-sizing: border-box;

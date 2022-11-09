@@ -7,3 +7,5 @@
 -React-switch v7.0.0 <br>
 -React-toastify v9.1.0 <br>
 -Next v13.0.1 <br>
+-Email JS v3.9.1 <br>
+-Styled components v5.3.6 <br>
