@@ -29,6 +29,7 @@ const Contact = () => {
 
   return (
     <StyledContactForm>
+      <h4>Please send me message for contact.</h4>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />
@@ -45,12 +46,16 @@ const Contact = () => {
 export default Contact;
 
 const StyledContactForm = styled.div`
-    padding : 50px;
+  padding: 50px;
   display: flex;
   justify-content: center;
   width: 900px;
   align-items: center;
-  margin: 0 auto;
+  margin: auto;
+  h4 {
+    font-size: 1.5rem;
+    color: #8d9eff;
+  }
   form {
     width: 100%;
     display: flex;
@@ -70,8 +75,8 @@ const StyledContactForm = styled.div`
       padding: 10px;
       border-radius: 5px;
       border: none;
-      background-color: #25316D;
-      color: #FFFFFF;
+      background-color: #25316d;
+      color: #ffffff;
       font-weight: 700;
       cursor: pointer;
     }

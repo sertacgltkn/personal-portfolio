@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 
 const Page = () => (
+  
   <>
     <Box
       component="main"

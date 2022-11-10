@@ -15,7 +15,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function Navbar() {
   const notify = () =>
-    toast.info("🦄 Yükleniyor...", {
+    toast.info("🦄 LoadinG...", {
       position: "top-right",
       autoClose: 800,
       hideProgressBar: false,

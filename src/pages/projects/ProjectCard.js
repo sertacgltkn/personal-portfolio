@@ -19,7 +19,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
       </div>
       <Link target="_blank" to="https://github.com/sertacgltkn/personal-portfolio">
       <Button>
-        Projeye Git
+        Go to Project
       </Button>
       </Link>
     </Col>
