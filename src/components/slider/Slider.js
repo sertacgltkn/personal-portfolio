@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
+import "./Slider.css"
 
 const Slider = () => {
   return (
@@ -15,7 +16,7 @@ const Slider = () => {
         <img
           height={652}
           width="100%"
-          className="d-block w-100"
+          className="carousel__item"
           src="https://cdn.pixabay.com/photo/2016/03/27/22/06/sea-1284467_960_720.jpg"
           alt="First slide"
         />

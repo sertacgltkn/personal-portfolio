@@ -8,6 +8,7 @@ import Home from "./pages/home/Home";
 import NotFound from "./pages/notFound/NotFound";
 import Projects from "./pages/projects/Projects";
 import ReactSwitch from "react-switch";
+import Footer from "./components/footer/Footer";
 
 export const ThemeContext = createContext(null); 
 
@@ -35,7 +36,8 @@ function App() {
           <Route path="/*" element={<NotFound />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-      </BrowserRouter>
+        <Footer/>
+      </BrowserRouter>      
     </ThemeContext.Provider>
   );
 }
