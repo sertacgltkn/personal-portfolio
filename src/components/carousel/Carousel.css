@@ -1,0 +1,27 @@
+.embla__container {
+  display: flex;
+  align-items: flex-start;
+}
+.embla__slide {
+  flex: 50%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.embla__slide__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  will-change: transform;
+}
+
+.images__embla {
+  max-width: 29rem;
+  max-height: 25rem;
+  object-position: center;
+  border-radius: 0px;
+}

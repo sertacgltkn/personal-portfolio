@@ -9,3 +9,4 @@
 -Next v13.0.1 <br>
 -Email JS v3.9.1 <br>
 -Styled components v5.3.6 <br>
+-Embla Carousel React v7.0.5 <br>

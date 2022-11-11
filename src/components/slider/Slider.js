@@ -7,7 +7,7 @@ const Slider = () => {
   return (
     <Carousel
       className="carousel"
-      controls={false}
+      controls={true}
       variant="light"
       interval="2000"
     >

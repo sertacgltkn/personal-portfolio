@@ -16,6 +16,7 @@ export default function Footer() {
       <Box
         sx={{
           py: 4,
+          position: "sticky",
           display: { xs: "block", sm: "flex" },
           alignItems: { sm: "center" },
           justifyContent: { sm: "space-between" },
@@ -53,7 +54,7 @@ export default function Footer() {
               title="GitHub"
               size="medium"
             >
-              <WhatsAppIcon fontSize="medium" sx={{ color: "white" }} />
+              <WhatsAppIcon fontSize="small" sx={{ color: "white" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -63,7 +64,7 @@ export default function Footer() {
               title="email"
               size="medium"
             >
-              <EmailIcon fontSize="medium" sx={{ color: "white" }} />
+              <EmailIcon fontSize="small" sx={{ color: "white" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -73,7 +74,7 @@ export default function Footer() {
               title="GitHub"
               size="medium"
             >
-              <GitHubIcon fontSize="medium" sx={{ color: "white" }} />
+              <GitHubIcon fontSize="small" sx={{ color: "white" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -83,7 +84,7 @@ export default function Footer() {
               title="Twitter"
               size="medium"
             >
-              <TwitterIcon fontSize="medium" sx={{ color: "white" }} />
+              <TwitterIcon fontSize="small" sx={{ color: "white" }} />
             </IconButton>
             <IconButton
               target="_blank"
