@@ -9,6 +9,7 @@ const Page = () => (
     <Box
       component="main"
       sx={{
+        backgroundColor: "black",
         alignItems: "center",
         display: "flex",
         flexGrow: 1,
@@ -26,11 +27,11 @@ const Page = () => (
           <Typography
             align="center"
             variant="h1"
-            sx={{ color: "#25316D", fontWeight: "bold" }}
+            sx={{ color: "#fff", fontWeight: "bold" }}
           >
             404: Aradığınız sayfaya ulaşılamıyor...
           </Typography>
-          <Typography align="center" color="textPrimary" variant="subtitle2">
+          <Typography align="center" color="#fff" variant="subtitle2">
             Böyle bir sayfa bulunmuyor, anasayfaya dönmek için butona basınız.
           </Typography>
           <NextLink href="/" passHref>
