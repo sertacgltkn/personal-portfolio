@@ -1,12 +1,18 @@
+.box{
+    background-color: black;
+    color: white;
+}
+
+
 
 .box-content:hover {
     align-items: center;
     align-self: center;
     align-content: center;
-    background-color: #ffffff;
+    background-color: #35097a;
     border: 1px solid #ffffff;
     box-shadow: 5px 5px 5px 5px rgb(107, 120, 235);
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.2s ease-in-out;
     border-radius: 50px;
     box-sizing: border-box;

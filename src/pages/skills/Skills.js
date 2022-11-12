@@ -32,15 +32,15 @@ const imageBootstrap = ["https://avatars.githubusercontent.com/u/2918581?s=280&v
 const imageMongoDB = ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png" ]
 const imageMaterial = ["https://mui.com/static/logo.png" ]
 const imageChakra = ["https://jquery-plugins.net/image/plugin/chakra-ui-simple-modular-accessible-ui-components-for-react-applications.png" ]
-const imageWordpress = ["https://orptech.com/storage/11/1638720708.png" ]
-const imageGithub = ["https://tr.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png" ]
+const imageWordpress = ["https://cloudbunny.net/onderyardim/wprsm/wordpres.jpg" ]
+const imageGithub = ["https://www.howtogeek.com/wp-content/uploads/2022/08/github_hero_2.jpg?height=200p&trim=2,2,2,2" ]
 const imageGitlab = ["https://www.gartner.com/imagesrv/peer-insights/vendors/logos/gitlab.png" ]
 const imageNpm = ["https://www.interviewbit.com/blog/wp-content/uploads/2022/05/Image-01-1-768x382.png" ]
 const imageAnt = ["https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png" ]
 
 function Skills() {
   return (
-    <Box component="section" sx={{ display: "flex", overflow: "hidden" }}>
+    <Box className="box" component="section" sx={{ display: "flex", overflow: "hidden" }}>
        
       <Container sx={{ mt: 18, mb: 18, display: "flex", position: "relative" }}>
         
@@ -59,8 +59,7 @@ function Skills() {
                 HTML5
               </Typography>
               <Typography variant="h5">
-              {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ab similique tempore illo dolorem inventore.
               </Typography>
             </Box>
           </Grid>
@@ -76,8 +75,7 @@ function Skills() {
                 CSS3
               </Typography>
               <Typography variant="h5">
-              {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, ullam modi eligendi voluptatem dicta beatae?
               </Typography>
             </Box>
           </Grid>
@@ -93,8 +91,7 @@ function Skills() {
                 JavaScript
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, saepe a ea rem nulla perspiciatis!
               </Typography>
             </Box>
           </Grid>
@@ -110,8 +107,7 @@ function Skills() {
                 React
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati impedit vel ratione corrupti! At, in.
               </Typography>
             </Box>
           </Grid>
@@ -127,8 +123,7 @@ function Skills() {
                 TypeScript
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nam cupiditate cumque magnam tempora at.
               </Typography>
             </Box>
           </Grid>
@@ -144,8 +139,7 @@ function Skills() {
                NextJS
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est mollitia id, ea soluta impedit consequatur cum.
               </Typography>
             </Box>
           </Grid>
@@ -161,8 +155,7 @@ function Skills() {
                 NODE JS
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus numquam, ab modi nisi fuga cum?
               </Typography>
             </Box>
           </Grid>
@@ -179,8 +172,7 @@ function Skills() {
                 REDUX
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat culpa est aspernatur saepe asperiores. Illum.
               </Typography>
             </Box>
           </Grid>
@@ -196,8 +188,7 @@ function Skills() {
                 EXPRESS
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat voluptatum totam accusantium laudantium, eaque iure?
               </Typography>
             </Box>
           </Grid>
@@ -213,8 +204,7 @@ function Skills() {
                 MongoDB
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores earum asperiores voluptatum, nesciunt ex sunt!
               </Typography>
             </Box>
           </Grid>
@@ -230,8 +220,7 @@ function Skills() {
                 git
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium hic expedita molestias libero. Corporis, porro?
               </Typography>
             </Box>
           </Grid>
@@ -247,8 +236,7 @@ function Skills() {
                 NPM
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, possimus! Sapiente blanditiis quaerat eaque magnam!
               </Typography>
             </Box>
           </Grid>
@@ -266,8 +254,7 @@ function Skills() {
                 Bootstrap
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae autem a eos et sunt.
               </Typography>
             </Box>
           </Grid>
@@ -284,8 +271,7 @@ function Skills() {
                 Material UI
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur doloribus porro, quaerat voluptas architecto.
               </Typography>
             </Box>
           </Grid>
@@ -301,8 +287,7 @@ function Skills() {
                 Ant Design
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero molestiae est optio illum illo.
               </Typography>
             </Box>
           </Grid>
@@ -318,8 +303,7 @@ function Skills() {
                 Chakra UI
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem possimus a animi voluptate veniam?
               </Typography>
             </Box>
           </Grid>
@@ -336,8 +320,7 @@ function Skills() {
                 Wordpress
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga vero maiores dolore, eos quisquam consectetur!
               </Typography>
             </Box>
           </Grid>
@@ -353,8 +336,7 @@ function Skills() {
                GitHub
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt obcaecati quae unde deleniti numquam neque!
               </Typography>
             </Box>
           </Grid>
@@ -370,8 +352,7 @@ function Skills() {
                GitLab
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius exercitationem, ipsum optio porro quibusdam dolore!
               </Typography>
             </Box>
           </Grid>

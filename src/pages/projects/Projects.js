@@ -12,12 +12,12 @@ const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Proje 2",
+      title: "Project 2",
       description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Proje 3",
+      title: "Project 3",
       description: "Design & Development",
       imgUrl: projImg1,
     },

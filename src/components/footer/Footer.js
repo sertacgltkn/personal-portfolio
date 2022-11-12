@@ -16,6 +16,7 @@ export default function Footer() {
       <Box
         sx={{
           py: 4,
+          margin: 0,
           position: "sticky",
           display: { xs: "block", sm: "flex" },
           alignItems: { sm: "center" },
@@ -31,7 +32,7 @@ export default function Footer() {
           className="typography"
           color="text.secondary"
           variant="body2"
-          style={{ color: "#edf5f3" }}
+          style={{ color: "#edf5f3", padding:"15px" }}
         >
           Copyright © {new Date().getFullYear()} <h9>sertacgltkn</h9>
         </Typography>

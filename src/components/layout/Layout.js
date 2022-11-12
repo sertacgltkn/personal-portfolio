@@ -13,7 +13,7 @@ const item = {
 const number = {
   fontSize: 24,
   fontFamily: "default",
-  color: "secondary.main",
+  color: "#8D9EFF",
   fontWeight: "medium",
 };
 
@@ -36,7 +36,7 @@ const Layout = () => {
             <h3>Jr. Frontend Developer</h3>
           </div>
         </div>
-        <Grid container spacing={5} padding={4}>
+        <Grid className="grid" container spacing={5} padding={4}>
           <Grid item xs={12} md={4}>
             <Box sx={item}>
               <Box sx={number}>1.</Box>
@@ -47,7 +47,7 @@ const Layout = () => {
                 sx={image}
               />
               <Typography variant="h5" align="center">
-                Appointment every Wednesday 9am.
+                Lorem ipsum dolor sit.
               </Typography>
             </Box>
           </Grid>
@@ -61,8 +61,7 @@ const Layout = () => {
                 sx={image}
               />
               <Typography variant="h5" align="center">
-                First come, first served. Our offers are in limited quantities,
-                so be quick.
+                Lorem ipsum dolor sit amet.
               </Typography>
             </Box>
           </Grid>
@@ -76,8 +75,7 @@ const Layout = () => {
                 sx={image}
               />
               <Typography variant="h5" align="center">
-                {"New offers every week. New experiences, new surprises. "}
-                {"Your Sundays will no longer be alike."}
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae.
               </Typography>
             </Box>
           </Grid>

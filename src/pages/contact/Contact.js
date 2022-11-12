@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import Snackbar from '@mui/material/Snackbar';
-import { Alert, Button, Stack } from "@mui/material";
+import { Alert, Stack } from "@mui/material";
 
 const Contact = () => {
 
@@ -61,7 +61,7 @@ const Contact = () => {
       
       <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
         <Alert onClose={handleClose} severity="error" sx={{ width: '100%', color:"white", backgroundColor:"#5F9DF7" }}>
-          This is a success message!
+        Your message has been sent...!
         </Alert>
       </Snackbar>
     </Stack>
@@ -72,6 +72,7 @@ const Contact = () => {
 export default Contact;
 
 const StyledContactForm = styled.div`
+background-color: rgb(0, 0, 0);
   padding: 183px;
   display: flex;
   justify-content: center;
@@ -80,12 +81,13 @@ const StyledContactForm = styled.div`
   margin: auto;
   h4 {
     font-size: 1.5rem;
-    color: #8d9eff;
+    color: #fff;
   }
   form {
     width: 100%;
     display: flex;
     flex-direction: column;
+    color: #fff;
     label {
       margin-bottom: 10px;
     }
