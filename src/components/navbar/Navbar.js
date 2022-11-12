@@ -41,7 +41,7 @@ function Navbar() {
         }}
       >
         <Toolbar>
-          <Link exact to="/"></Link> {/* RRDOMV6 ile linkleme işlemi */}
+          <Link exact="true" to="/"></Link> {/* RRDOMV6 ile linkleme işlemi */}
           <Typography // Mui'dan gelen typography
             variant="h6"
             noWrap // yazıyı sığdırmak için
@@ -62,7 +62,7 @@ function Navbar() {
             }}
           >
             <Link
-              exact
+              exact="true"
               to="/"
               style={{ textDecoration: "none", color: "white" }}
             >
@@ -92,7 +92,7 @@ function Navbar() {
                 }}
               >
                 <Link
-                  exact
+                  exact="true"
                   to="/"
                   style={{ textDecoration: "none", color: "white" }}
                 >
@@ -108,7 +108,7 @@ function Navbar() {
                 sx={{ margin: 1, backgroundColor: "#25316D" }}
               >
                 <Link
-                  exact
+                  exact="true"
                   to="/skills"
                   style={{ textDecoration: "none", color: "white" }}
                 >
@@ -124,7 +124,7 @@ function Navbar() {
                 sx={{ margin: 1, backgroundColor: "#25316D" }}
               >
                 <Link
-                  exact
+                  exact="true"
                   to="/projects"
                   style={{ textDecoration: "none", color: "white" }}
                 >
@@ -144,7 +144,7 @@ function Navbar() {
                 }}
               >
                 <Link
-                  exact
+                 exact="true"
                   to="/contact"
                   style={{ textDecoration: "none", color: "white" }}
                 >
