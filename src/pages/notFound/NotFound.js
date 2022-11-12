@@ -43,7 +43,7 @@ const Page = () => (
               sx={{ margin: 1, backgroundColor: "#25316D" }}
             >
               <Link
-                exact="true"
+                exact
                 to="/"
                 style={{ textDecoration: "none", color: "white" }}
               >

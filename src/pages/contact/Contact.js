@@ -2,8 +2,26 @@ import "./Contact.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
+import Snackbar from '@mui/material/Snackbar';
+import { Alert, Button, Stack } from "@mui/material";
 
 const Contact = () => {
+
+  const [open, setOpen] = React.useState(false);
+
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
+
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -37,8 +55,16 @@ const Contact = () => {
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input type="submit" onClick={handleClick} value="Send" />
       </form>
+      <Stack spacing={2} sx={{ width: '100%' }}>
+      
+      <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity="error" sx={{ width: '100%', color:"white", backgroundColor:"#5F9DF7" }}>
+          This is a success message!
+        </Alert>
+      </Snackbar>
+    </Stack>
     </StyledContactForm>
   );
 };
@@ -46,10 +72,10 @@ const Contact = () => {
 export default Contact;
 
 const StyledContactForm = styled.div`
-  padding: 50px;
+  padding: 183px;
   display: flex;
   justify-content: center;
-  width: 900px;
+  width: 170em;
   align-items: center;
   margin: auto;
   h4 {
