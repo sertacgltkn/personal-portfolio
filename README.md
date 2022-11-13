@@ -27,9 +27,15 @@ While preparing this project, I tried to use React Hooks, Context structure, lib
 -Styled components v5.3.6 <br>
 -Embla Carousel React v7.0.5 <br>
 
-<<<<<<< HEAD
+### ScreenShots
+
+![1](https://user-images.githubusercontent.com/96946069/201525161-9847b8bf-5384-4c36-9ed1-3ee91a8c4c1b.png)
+![2](https://user-images.githubusercontent.com/96946069/201525170-9d5a9b8a-fcf7-440f-924f-5b11bfc8460c.png)
+![3](https://user-images.githubusercontent.com/96946069/201525173-08f809e4-b9d6-46ce-a1ee-e41371bf186a.png)
+![4](https://user-images.githubusercontent.com/96946069/201525179-f79b0d48-831a-46c8-b797-4cfff0e05913.png)
+![5](https://user-images.githubusercontent.com/96946069/201525193-e930e6e6-6127-40fd-b327-ea95accd5f8d.png)
 
 
 
-=======
->>>>>>> 7cafb6ecbf2679712b6a01bd8c9ff817cc1564f9
+
+
