@@ -1,6 +1,6 @@
 ### Summary
 
-This project has been prepared as a graduation project of React Bootcamp organized in cooperation with Kodluyoruz.org and [Fırat Development Agency](https://fka.gov.tr).
+This project has been prepared as a graduation project of React Bootcamp organized in cooperation with [Kodluyoruz](https://kodluyoruz.org/tr/kodluyoruz/) and [Fırat Development Agency](https://fka.gov.tr).
 
 While preparing this project, I tried to use React Hooks, Context structure, libraries such as React Router Dom, Bootstrap, Material UI. Besides, e-mail connection was made with Email.js.
 
@@ -23,3 +23,7 @@ While preparing this project, I tried to use React Hooks, Context structure, lib
 -Email JS v3.9.1 <br>
 -Styled components v5.3.6 <br>
 -Embla Carousel React v7.0.5 <br>
+
+
+
+

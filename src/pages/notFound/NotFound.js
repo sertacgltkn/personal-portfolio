@@ -1,4 +1,4 @@
-import NextLink from "next/link";
+
 import { Box, Button, Container, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
@@ -34,7 +34,7 @@ const Page = () => (
           <Typography align="center" color="#fff" variant="subtitle2">
             Böyle bir sayfa bulunmuyor, anasayfaya dönmek için butona basınız.
           </Typography>
-          <NextLink href="/" passHref>
+          <Link href="/" passHref>
             <Button
               /* onClick={notify} */
               color="primary"
@@ -52,7 +52,7 @@ const Page = () => (
                 Home
               </Link>
             </Button>
-          </NextLink>
+          </Link>
           <Box sx={{ textAlign: "center" }}>
             <img
               src="https://wpklik.com/wp-content/uploads/2019/03/A-404-Page-Best-Practices-and-Design-Inspiration.jpg"
