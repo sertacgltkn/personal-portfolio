@@ -1,3 +1,6 @@
+### [DEMO]("personal-portfolio-sertacgultekin.netlify.app")
+
+
 ### Summary
 
 This project has been prepared as a graduation project of React Bootcamp organized in cooperation with [Kodluyoruz](https://kodluyoruz.org/tr/kodluyoruz/) and [Fırat Development Agency](https://fka.gov.tr).
@@ -24,6 +27,9 @@ While preparing this project, I tried to use React Hooks, Context structure, lib
 -Styled components v5.3.6 <br>
 -Embla Carousel React v7.0.5 <br>
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 7cafb6ecbf2679712b6a01bd8c9ff817cc1564f9
