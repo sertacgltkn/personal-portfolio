@@ -10,10 +10,10 @@ import Projects from "./pages/projects/Projects";
 import ReactSwitch from "react-switch";
 import Footer from "./components/footer/Footer";
 
-export const ThemeContext = createContext(null); 
+export const ThemeContext = createContext(null);
 
 function App() {
-  const [theme, setTheme] = useState("dark"); 
+  const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
@@ -23,8 +23,12 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
         <div className="switch">
-          <label> {theme === "light" ? "Light Mode" : "Dark Mode"} </label>
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+          <label> {theme === "light" ? "Light Mode" : "Dark Mode "} </label>
+          <ReactSwitch
+            className="sw__button"
+            onChange={toggleTheme}
+            checked={theme === "dark"}
+          />
         </div>
       </div>
       <BrowserRouter>
@@ -36,8 +40,8 @@ function App() {
           <Route path="/*" element={<NotFound />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-        <Footer/>
-      </BrowserRouter>      
+        <Footer />
+      </BrowserRouter>
     </ThemeContext.Provider>
   );
 }

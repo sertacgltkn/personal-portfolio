@@ -66,7 +66,7 @@ function Navbar() {
               to="/"
               style={{ textDecoration: "none", color: "white" }}
             >
-              <h4 className="name">Sertaç Gültekin</h4>
+              <h4 className="name">SERTAÇ GÜLTEKİN</h4>
             </Link>
           </Typography>
           <Box sx={{ flexGrow: 1 }} />

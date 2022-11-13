@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Courgette&family=Great+Vibes&family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Pacifico&family=Righteous&family=Staatliches&display=swap');
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -7,6 +9,10 @@
 }
 
 .name {
+  margin-right: 15px;
+  letter-spacing: 2px;
+  font-family: 'Bangers', cursive;
+  font-size: 2rem;
   color: rgb(255, 255, 255);
   animation-duration: 0.5s;
   animation-name: slidein; /* keyframes ile slidein bağlantısı */

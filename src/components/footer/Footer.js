@@ -45,7 +45,7 @@ export default function Footer() {
                 color: "#edf5f3",
               }}
             >
-              <h9> Contact Me: </h9>
+              
             </p>
             <IconButton
               target="_blank"
