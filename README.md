@@ -1,4 +1,4 @@
-### [DEMO]("personal-portfolio-sertacgultekin.netlify.app")
+#### [DEMO](https://personal-portfolio-sertacgultekin.netlify.app)
 
 
 ### Summary
