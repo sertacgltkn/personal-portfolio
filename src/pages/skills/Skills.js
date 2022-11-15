@@ -286,6 +286,7 @@ function Skills() {
               <Typography variant="h6" sx={{ my: 5 }}>
                 Ant Design
               </Typography>
+              
               <Typography variant="h5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero molestiae est optio illum illo.
               </Typography>

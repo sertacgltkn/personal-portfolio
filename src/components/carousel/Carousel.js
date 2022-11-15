@@ -62,6 +62,7 @@ const Carousel = () => {
               src="https://c1.wallpaperflare.com/preview/99/189/179/boy-child-male-hand.jpg"
               alt="slide 7"
             />
+            
           </div>
         </div>
       </div>

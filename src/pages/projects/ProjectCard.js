@@ -17,10 +17,20 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
           <span>{description}</span>
         </div>
       </div>
-      <Link target="_blank" to="https://github.com/sertacgltkn/personal-portfolio">
-      <Button>
-        Go to Project
-      </Button>
+      <Link
+        target="_blank"
+        to="https://github.com/sertacgltkn/personal-portfolio" /* to="https://github.com/sertacgltkn/personal-portfolio" */
+      >
+        <Button
+          color="primary"
+          variant="contained"
+          size="small"
+          target="_blank"
+          href="https://github.com/sertacgltkn/personal-portfolio"
+          sx={{textDecoration:"none", color:"white", ":hover":{color:"white", backgroundColor:"purple"} }}
+        >
+          Go to Project
+        </Button>
       </Link>
     </Col>
   );
